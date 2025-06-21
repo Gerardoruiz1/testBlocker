@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF2E3D232E072C4700273C74 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2E3D222E072C4700273C74 /* HomePage.swift */; };
 		AFFB2B402DFDC53A0058CD19 /* testBlockerAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFB2B3F2DFDC53A0058CD19 /* testBlockerAppApp.swift */; };
-		AFFB2B422DFDC53A0058CD19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFB2B412DFDC53A0058CD19 /* ContentView.swift */; };
+		AFFB2B422DFDC53A0058CD19 /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFB2B412DFDC53A0058CD19 /* OnBoarding.swift */; };
 		AFFB2B442DFDC53C0058CD19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFFB2B432DFDC53C0058CD19 /* Assets.xcassets */; };
 		AFFB2B472DFDC53C0058CD19 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFFB2B462DFDC53C0058CD19 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF2E3D222E072C4700273C74 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = SOURCE_ROOT; };
 		AFFB2B3C2DFDC53A0058CD19 /* testBlockerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testBlockerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFB2B3F2DFDC53A0058CD19 /* testBlockerAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testBlockerAppApp.swift; sourceTree = "<group>"; };
-		AFFB2B412DFDC53A0058CD19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AFFB2B412DFDC53A0058CD19 /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
 		AFFB2B432DFDC53C0058CD19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFFB2B462DFDC53C0058CD19 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				AFFB2B3F2DFDC53A0058CD19 /* testBlockerAppApp.swift */,
-				AFFB2B412DFDC53A0058CD19 /* ContentView.swift */,
+				AFFB2B412DFDC53A0058CD19 /* OnBoarding.swift */,
+				AF2E3D222E072C4700273C74 /* HomePage.swift */,
 				AFFB2B432DFDC53C0058CD19 /* Assets.xcassets */,
 				AFFB2B452DFDC53C0058CD19 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFFB2B422DFDC53A0058CD19 /* ContentView.swift in Sources */,
+				AFFB2B422DFDC53A0058CD19 /* OnBoarding.swift in Sources */,
+				AF2E3D232E072C4700273C74 /* HomePage.swift in Sources */,
 				AFFB2B402DFDC53A0058CD19 /* testBlockerAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
