@@ -39,7 +39,7 @@ struct OnBoarding: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        HomePage()
+        OnBoarding()
     }
 }
 
@@ -92,7 +92,7 @@ struct ThirdView: View {
 
 struct FourthView: View {
     var body: some View {
-        Text("This is a 4  blank screen.")
+        Text("Papi es bello")
             .font(.title)
             .padding()
     }
